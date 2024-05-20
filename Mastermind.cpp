@@ -2,8 +2,7 @@
 #include <random>
 #include <ctime>
 #include <string>
-using namespace std; // I don't have to use std::cout, can just type cout. Want to learn what std:: actually does first
-
+using namespace std;
 int main() {
 	srand(time(NULL));
 	cout << "MASTERMIND" << '\n'
